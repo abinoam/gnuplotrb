@@ -57,6 +57,14 @@ describe Plot do
       it 'takes name for plot from DataFrame' do
         expect(subject.title).to eql(df.name)
       end
+
+      context 'with title option given' do
+        subject { Plot.new(df, title: 'Not a DataFrame') }
+
+        it "uses title option instead of DataFrame name" do
+          expect(subject.title).not_to eql(df.name)
+        end
+      end
     end
   end
 

@@ -298,7 +298,7 @@ module GnuplotRB
     end
 
     def set_name_from_daru_dataframe(dataframe)
-      self.title = dataframe.name
+      self.title = dataframe.name unless title
     end
   end
 end
