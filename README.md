@@ -12,15 +12,12 @@ This software has been developed as a product in Google Summer of Code 2015 (GSo
 [![Test Coverage](https://codeclimate.com/github/SciRuby/gnuplotrb/badges/coverage.svg)](https://codeclimate.com/github/SciRuby/gnuplotrb/coverage)
 
 ## Table of contents
-*   [Installation](https://github.com/sciruby/gnuplotrb#installation)
-*   [Getting started](https://github.com/sciruby/gnuplotrb#getting-started)
-    *   [Plottable
-        classes](https://github.com/sciruby/gnuplotrb#plottable-classes)
-    *   [Notebooks](https://github.com/sciruby/gnuplotrb#notebooks)
-    *   [Plain examples](https://github.com/sciruby/gnuplotrb#plain-examples)
-
-*   [Contributing](https://github.com/sciruby/gnuplotrb#contributing)
-
+* [Installation](https://github.com/sciruby/gnuplotrb#installation)
+* [Getting started](https://github.com/sciruby/gnuplotrb#getting-started)
+  - [Plottable classes](https://github.com/sciruby/gnuplotrb#plottable-classes)
+  - [Notebooks](https://github.com/sciruby/gnuplotrb#notebooks)
+  - [Plain examples](https://github.com/sciruby/gnuplotrb#plain-examples)
+* [Contributing](https://github.com/sciruby/gnuplotrb#contributing)
 
 ## Installation
 ### Dependencies
