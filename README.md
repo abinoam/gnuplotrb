@@ -3,10 +3,7 @@
 GnuplotRB is a plot generator for Ruby based on
 [Gnuplot](http://www.gnuplot.info).
 
-This software has been developed as a product in Google Summer of Code 2015
-(GSoC2015). Its progress may be saw in [SciRuby mailing
-list](https://groups.google.com/forum/?fromgroups#!topic/sciruby-dev/lhWvb5hWc
-3k) or in [project's blog](http://www.evgrafov.work/gnuplotrb/).
+This software has been developed as a product in Google Summer of Code 2015 (GSoC2015). Its progress may be saw in [SciRuby mailing list](https://groups.google.com/forum/?fromgroups#!topic/sciruby-dev/lhWvb5hWc3k) or in [project's blog](http://www.evgrafov.work/gnuplotrb/).
 
 [![Gem Version](https://badge.fury.io/rb/gnuplotrb.svg)](https://badge.fury.io/rb/gnuplotrb)
 [![Dependency Status](https://gemnasium.com/badges/github.com/SciRuby/gnuplotrb.svg)](https://gemnasium.com/github.com/SciRuby/gnuplotrb)
