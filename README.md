@@ -8,21 +8,11 @@ This software has been developed as a product in Google Summer of Code 2015
 list](https://groups.google.com/forum/?fromgroups#!topic/sciruby-dev/lhWvb5hWc
 3k) or in [project's blog](http://www.evgrafov.work/gnuplotrb/).
 
-[<img src="https://badge.fury.io/rb/gnuplotrb.svg" alt="Gem Version"
-/>](https://rubygems.org/gems/gnuplotrb)
-
-[<img src="https://gemnasium.com/dilcom/gnuplotrb.svg" alt="Dependency Status"
-/>](https://gemnasium.com/dilcom/gnuplotrb)
-
-[<img src="https://travis-ci.org/SciRuby/gnuplotrb.svg" alt="Build Status"
-/>](https://travis-ci.org/SciRuby/gnuplotrb)
-
-[<img src="https://codeclimate.com/github/sciruby/gnuplotrb/badges/gpa.svg"
-alt="Code quality" />](https://codeclimate.com/github/sciruby/gnuplotrb)
-
-[<img
-src="https://codeclimate.com/github/sciruby/gnuplotrb/badges/coverage.svg"
-alt="Test coverage" />](https://codeclimate.com/github/sciruby/gnuplotrb)
+[![Gem Version](https://badge.fury.io/rb/gnuplotrb.svg)](https://badge.fury.io/rb/gnuplotrb)
+[![Dependency Status](https://gemnasium.com/badges/github.com/SciRuby/gnuplotrb.svg)](https://gemnasium.com/github.com/SciRuby/gnuplotrb)
+[![Build Status](https://travis-ci.org/SciRuby/gnuplotrb.svg?branch=master)](https://travis-ci.org/SciRuby/gnuplotrb)
+[![Code Climate](https://codeclimate.com/github/SciRuby/gnuplotrb/badges/gpa.svg)](https://codeclimate.com/github/SciRuby/gnuplotrb)
+[![Test Coverage](https://codeclimate.com/github/SciRuby/gnuplotrb/badges/coverage.svg)](https://codeclimate.com/github/SciRuby/gnuplotrb/coverage)
 
 ## Table of contents
 *   [Installation](https://github.com/sciruby/gnuplotrb#installation)
