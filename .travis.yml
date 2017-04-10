@@ -1,39 +1,30 @@
 notifications:
   email: false
 language: ruby
+dist: trusty
 sudo: required
 os:
   - linux
   - osx
 rvm:
-  - ruby-2.0.0-p648
-  - ruby-2.0.0-p598
-  - ruby-2.2.4
-  - ruby-2.2.2
-  - ruby-2.3.0-preview2
+  - 2.0.0
+  - 2.1.10
+  - 2.2.5
+  - 2.3.1
+  - 2.4.0
 matrix:
-  exclude:
-    - os: linux
-      rvm: ruby-2.0.0-p598
-    - os: linux
-      rvm: ruby-2.2.2
-    - os: osx
-      rvm: ruby-2.2.4
-    - os: osx
-      rvm: ruby-2.0.0-p648
-    - os: osx
-      rvm: ruby-2.3.0-preview2
   include:
-    - rvm: jruby-head
+    - rvm: jruby-9.1.0.0
       env: JRUBY_OPTS="-Xcli.debug=true --debug"
 addons:
   code_climate:
     repo_token: 60d9731d654527cb53aabc7db15bcde87d701ddb6b1cba8fc0da6aba16d00bb1
+
 before_install:
-  - if [[ "$TRAVIS_OS_NAME" != "osx" ]]; then sudo add-apt-repository "deb http://cz.archive.ubuntu.com/ubuntu vivid main universe" ; fi
-  - if [[ "$TRAVIS_OS_NAME" != "osx" ]]; then sudo apt-get update -q ; fi
-  - if [[ "$TRAVIS_OS_NAME" != "osx" ]]; then sudo rm -rf /etc/dpkg/dpkg.cfg.d/multiarch ; fi
-  - if [[ "$TRAVIS_OS_NAME" != "osx" ]]; then sudo apt-get install gnuplot5 ; fi
+  - if [[ "$TRAVIS_OS_NAME" == "linux" ]]; then sudo add-apt-repository "deb http://archive.ubuntu.com/ubuntu xenial main universe" ; fi
+  - if [[ "$TRAVIS_OS_NAME" == "linux" ]]; then sudo apt-get update -q ; fi
+  - if [[ "$TRAVIS_OS_NAME" == "linux" ]]; then sudo rm -rf /etc/dpkg/dpkg.cfg.d/multiarch ; fi
+  - if [[ "$TRAVIS_OS_NAME" == "linux" ]]; then sudo apt-get install gnuplot5 ; fi
   - if [[ "$TRAVIS_OS_NAME" == "osx" ]]; then brew update ; fi
   - if [[ "$TRAVIS_OS_NAME" == "osx" ]]; then brew install pdflib-lite ; fi
   - if [[ "$TRAVIS_OS_NAME" == "osx" ]]; then brew install gnuplot --with-png --with-jpeg --with-cairo --with-svg ; fi
