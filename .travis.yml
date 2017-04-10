@@ -21,7 +21,7 @@ addons:
     repo_token: 60d9731d654527cb53aabc7db15bcde87d701ddb6b1cba8fc0da6aba16d00bb1
   apt:
     sources:
-      - xenial
+      - sourceline: 'deb http://archive.ubuntu.com/ubuntu xenial main universe'
     packages:
       - gnuplot5
 
