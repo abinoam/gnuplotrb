@@ -2,7 +2,7 @@ notifications:
   email: false
 language: ruby
 dist: trusty
-sudo: required
+sudo: false
 os:
   - linux
   - osx
