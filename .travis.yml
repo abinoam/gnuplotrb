@@ -44,3 +44,5 @@ install:
   - bundle exec rake install
 script:
   - bundle exec rake spec
+after_success:
+  - bundle exec codeclimate-test-reporter
